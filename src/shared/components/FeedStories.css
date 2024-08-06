@@ -1,0 +1,95 @@
+.feed-item-list > .feed-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0 0 5px 0 rgba(189, 188, 188, 0.516);
+  border-radius: 5px;
+}
+
+.feed-item > .feed-item__header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 15px;
+}
+
+.feed-item > .feed-item__header > .feed-item__avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.feed-item > .feed-item__header > .feed-item__avatar > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.feed-item > .feed-item__header > .feed-item__user-name {
+  font-weight: 500;
+}
+
+.feed-item > .feed-item__header > .feed-item__time-passed {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: gray;
+  margin-left: 10px;
+}
+
+.feed-item > .feed-item__caption {
+  margin-bottom: 10px;
+}
+
+.feed-item > .feed-item__post-image {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.feed-item > .feed-item__post-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feed-item > .feed-item__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.feed-item > .feed-item__footer > .feed-item__react {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  align-content: center;
+}
+
+.feed-item > .feed-item__footer > .feed-item__react > * {
+  cursor: pointer;
+}
+
+.feed-item
+  > .feed-item__footer
+  :where(.feed-item__react-count, .feed-item__comment-count) {
+  font-size: 0.8rem;
+}
+
+.feed-item
+  > .feed-item__footer
+  :where(.feed-item__like-react, .feed-item__love-react) {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.feed-item
+  > .feed-item__footer
+  :where(.feed-item__like-react, .feed-item__love-react)
+  > img {
+  width: 100%;
+  height: 100%;
+}

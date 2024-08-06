@@ -1,0 +1,7 @@
+.feed {
+  padding: 20px;
+}
+
+.feed > * {
+  margin-bottom: 20px;
+}

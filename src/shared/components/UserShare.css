@@ -1,0 +1,84 @@
+.user-share {
+  box-shadow: 0 0 5px 0 rgba(189, 188, 188, 0.516);
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+}
+
+.user-share > .user-share__input {
+  display: flex;
+  gap: 10px;
+}
+.user-share > .user-share__input > input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 100%;
+}
+.user-share > .user-share__input > .user-share__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-share > .user-share__input > .user-share__avatar > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-share > .user-share__icons-btn {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.user-share > .user-share__icons-btn > .user-share__icons-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.user-share
+  > .user-share__icons-btn
+  > .user-share__icons-list
+  > .user-share__icon-item {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.user-share > .user-share__icons-btn > .user-share__share-btn--green {
+  background-color: mediumseagreen;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 10px;
+  color: white;
+  transition: all 0.3s linear;
+}
+
+.user-share > .user-share__icons-btn > .user-share__share-btn--green:hover {
+  background-color: green;
+}
+
+.user-share .user-share__icon--orange > svg {
+  color: orange;
+}
+
+.user-share .user-share__icon--blue > svg {
+  color: blue;
+}
+
+.user-share .user-share__icon--green > svg {
+  color: green;
+}
+
+.user-share .user-share__icon--yellow > svg {
+  color: gold;
+}

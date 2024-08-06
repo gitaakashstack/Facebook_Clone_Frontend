@@ -1,0 +1,60 @@
+.left-sidebar {
+  padding: 20px;
+  overflow-y: scroll;
+}
+.left-sidebar::-webkit-scrollbar {
+  width: 7px;
+}
+
+.left-sidebar__icons {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.left-sidebar__icons > li {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+  font-weight: 500;
+}
+
+.left-sidebar__icons > li > svg {
+  transition: all 0.3s linear;
+}
+
+.left-sidebar__icons > li:hover > svg {
+  transform: scale(1.5);
+}
+
+.left-sidebar__btn--gray {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.left-sidebar__btn--gray:hover {
+  background-color: gray;
+}
+
+.left-sidebar__friends-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-content: flex-start;
+}

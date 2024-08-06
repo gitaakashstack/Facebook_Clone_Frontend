@@ -1,0 +1,15 @@
+.home-page {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: calc(100vh - var(--topbar-height));
+}
+
+.home-page > .feed-and-right-side-bar {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  overflow-y: scroll;
+}
+
+.home-page > .feed-and-right-side-bar::-webkit-scrollbar {
+  width: 7px;
+}
